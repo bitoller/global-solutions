@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1338px) {
+  img {
+    display: none;
+  }
+}
+
+nav {
+  display: block;
+  height: 62px;
+  margin-top: 30px;
+  box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  min-height: calc(100vh - 62px - 62px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.main__menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__item a {
+  display: block;
+  text-align: center;
+  margin-right: 20px;
+  padding: 0 15px 29px 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu li a:hover {
+  border-bottom: 3px #1a76d1 solid;
+}
+
+#link-hover-header:hover {
+  background-color: #5396d8;
+}
+
+.link__video {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #1a76d1;
+  text-wrap: nowrap;
+}
+
+.background {
+  background-image: url("../assets/img/bgtopo.png");
+  background-repeat: no-repeat;
+}
+
+.format__box {
+  font-size: 24px;
+}
+
+.format__last {
+  margin-top: 45px;
+}
+
+.format__svg {
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+.format__svg p span {
+  display: inline;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#link-hover {
+  text-decoration: none;
+}
+
+.box {
+  width: 350px;
+  margin-left: 150px;
+}
+
+.box__2 p a span {
+  display: inline;
+  align-items: center;
+  vertical-align: middle;
+}
