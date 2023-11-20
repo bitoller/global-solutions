@@ -90,3 +90,20 @@ main {
   align-items: center;
   vertical-align: middle;
 }
+
+dialog {
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  border: solid 2px var(--color-accent);
+}
+
+dialog::backdrop {
+  background-color: rgba(25, 28, 31, 0.8);
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
