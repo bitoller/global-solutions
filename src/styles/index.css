@@ -2,6 +2,9 @@
   img {
     display: none;
   }
+  iframe{
+    display: none;
+  }
 }
 
 nav {
@@ -28,7 +31,6 @@ main {
 .menu__item a {
   display: block;
   text-align: center;
-  margin-right: 20px;
   padding: 0 15px 29px 10px;
   text-decoration: none;
   color: var(--color-grey-2);
@@ -67,7 +69,6 @@ main {
 
 .format__svg {
   margin-top: 25px;
-  margin-right: 50px;
 }
 
 .format__svg p span {
@@ -83,7 +84,6 @@ main {
 
 .box {
   width: 350px;
-  margin-left: 150px;
 }
 
 .box__2 p a span {
