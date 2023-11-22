@@ -33,8 +33,6 @@
   <body>
     <header>
       <nav>
-        <div class="menu">
-          <div class="main__menu">
             <ul>
               <li class="menu__item"><a href="./index.html">Home</a></li>
               <li class="menu__item">
@@ -49,18 +47,39 @@
               <li class="menu__item">
                 <a href="./src/pages/improvement.html">Melhoria Geral</a>
               </li>
+              <li >
+                <button id="btn"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
+                  Assista a Apresentação</a></button>
+              </li>
             </ul>
+            <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="./src/assets/img/menuIcon.svg" alt="icone de três barra paralelas horizontais"></button>            
           </div>
-          <div>
-            <a
-              id="link-hover-header"
-              href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk"
-              class="link__video"
-              >Assista a Apresentação</a
-            >
-          </div>
-        </div>
-      </nav>
+          </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="menu__item-mobile"><a href="./index.html">Home</a></li>
+          <li class="menu__item-mobile">
+            <a href="./src/pages/mortality.html">Redução de Mortalidade</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="./src/pages/diseases.html">Combate a Doenças</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="./src/pages/treatment.html">Prevenção e Tratamento</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="./src/pages/improvement.html">Melhoria Geral</a>
+          </li>
+          <li>
+            <li >
+              <button id="btn-mobile"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
+                Assista a Apresentação</a></button>
+            </li>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="h-100 align-items-center justify-content-center">
       <div class="container">
@@ -179,7 +198,7 @@
           />
           <div class="pt-5">
             <h2>
-              <i class="pb-2 border-5 border-bottom border-primary"
+              <i class="border-5 border-bottom border-primary"
                 >Tecnologia</i
               >
               pode evoluir a área da saúde
