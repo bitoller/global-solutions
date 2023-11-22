@@ -35,8 +35,6 @@
   <body>
     <header>
       <nav>
-        <div class="menu">
-          <div class="main__menu">
             <ul>
               <li class="menu__item"><a href="../../index.html">Home</a></li>
               <li class="menu__item">
@@ -51,25 +49,46 @@
               <li class="menu__item">
                 <a href="../pages/improvement.html">Melhoria Geral</a>
               </li>
+              <li >
+                <button id="btn"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
+                  Assista a Apresentação</a></button>
+              </li>
             </ul>
+            <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="../assets/img/menuIcon.svg" alt="icone de três barra paralelas horizontais"></button>            
           </div>
-          <div>
-            <a
-              id="link-hover-header"
-              href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk"
-              class="link__video"
-              >Assista a Apresentação</a
-            >
-          </div>
-        </div>
-      </nav>
+          </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="menu__item-mobile"><a href="../../index.html">Home</a></li>
+          <li class="menu__item-mobile">
+            <a href="../pages/mortality.html">Redução de Mortalidade</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="../pages/diseases.html">Combate a Doenças</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="../pages/treatment.html">Prevenção e Tratamento</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="../pages/improvement.html">Melhoria Geral</a>
+          </li>
+          <li>
+            <li >
+              <button id="btn-mobile"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
+                Assista a Apresentação</a></button>
+            </li>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <div class="container-fluid bg-primary text-center text-light p-4">
         <h1>Prevenção e Tratamento de Doenças Não Transmissíveis</h1>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row flex-wrap">
           <div class="col">
             <img
               src="../assets/img/treatment.png"
@@ -78,29 +97,21 @@
           </div>
           <div class="col m-auto">
             <p>
-              Lorem ipsum dolor sit amet. Et corporis sequi est facere
-              dignissimos non accusamus doloribus id itaque libero! Nam optio
-              eaque qui deserunt alias sed doloremque quidem qui ratione
-              laudantium 33 error dolorum eum voluptate incidunt. Quo similique
-              architecto a unde voluptas a commodi modi et excepturi nemo. In
-              earum magnam et sequi iure aut magni quibusdam et molestiae rerum
-              et veniam assumenda. Eum temporibus quas aut quia libero aut iusto
-              fugiat eum earum molestiae. Hic odit enim sit illum eveniet qui
-              laborum nisi ex provident ducimus ex rerum alias et tenetur
-              similique. Et placeat temporibus eos maiores sunt vel nemo alias
-              At soluta laboriosam.
+              A prevenção e tratamento de doenças não transmissíveis são temas de extrema importância na área da saúde. Essas doenças, como doenças cardiovasculares, câncer, diabetes e doenças respiratórias crônicas, representam uma grande carga para os sistemas de saúde e impactam negativamente a qualidade de vida das pessoas. A prevenção dessas doenças envolve a adoção de estilos de vida saudáveis, como uma alimentação equilibrada, prática regular de atividade física, evitar o consumo de tabaco e álcool em excesso, além de controle do estresse. </p>
+              <p>
+              Já o tratamento das doenças não transmissíveis requer uma abordagem multidisciplinar, que inclui a utilização de medicamentos, procedimentos médicos, reabilitação e cuidados paliativos. Além disso, é fundamental investir em políticas públicas que promovam a prevenção e tratamento dessas doenças, bem como na educação da população sobre a importância de um estilo de vida saudável.
             </p>
           </div>
         </div>
         <hr class="border-3" />
         <div class="row flex-wrap gap-2">
-          <div class="col">
+          <div class="col cards">
             <img
               src="../assets/img/obesity.png"
               alt="imagem sobre informações sobre prevenção da obesidade e duas pessoas bebendo água"
             />
           </div>
-          <div class="col">
+          <div class="col cards">
             <img
               src="../assets/img/sedentary.png"
               alt="imagem sobre informações sobre prevenção do sedentarismo e uma pessoa andando de bicicleta"
