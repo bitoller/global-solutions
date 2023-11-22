@@ -33,8 +33,6 @@
   <body>
     <header>
       <nav>
-        <div class="menu">
-          <div class="main__menu">
             <ul>
               <li class="menu__item"><a href="../../index.html">Home</a></li>
               <li class="menu__item">
@@ -49,18 +47,39 @@
               <li class="menu__item">
                 <a href="../pages/improvement.html">Melhoria Geral</a>
               </li>
+              <li >
+                <button id="btn"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
+                  Assista a Apresentação</a></button>
+              </li>
             </ul>
+            <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="../assets/img/menuIcon.svg" alt="icone de três barra paralelas horizontais"></button>            
           </div>
-          <div>
-            <a
-              id="link-hover-header"
-              href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk"
-              class="link__video"
-              >Assista a Apresentação</a
-            >
-          </div>
-        </div>
-      </nav>
+          </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="menu__item-mobile"><a href="../../index.html">Home</a></li>
+          <li class="menu__item-mobile">
+            <a href="../pages/mortality.html">Redução de Mortalidade</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="../pages/diseases.html">Combate a Doenças</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="../pages/treatment.html">Prevenção e Tratamento</a>
+          </li>
+          <li class="menu__item-mobile">
+            <a href="../pages/improvement.html">Melhoria Geral</a>
+          </li>
+          <li>
+            <li >
+              <button id="btn-mobile"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
+                Assista a Apresentação</a></button>
+            </li>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <div class="container-fluid bg-primary text-center text-light p-4">
@@ -84,7 +103,7 @@
               </button>
             </div>
           </div>
-          <div class="col m-auto">
+          <div class="col m-auto remove__card">
             <img
               src="../assets/img/checklist.png"
               alt="imagem de uma pessoa preenchendo um questionário"
@@ -96,11 +115,41 @@
           Alguns hábitos que podem levar você a ter uma vida mais saudável
         </h2>
         <div class="mb-5">
-          <img
-            src="../assets/img/instructions.png"
-            alt="imagem com instruções para ajudar a ter uma vida mais saudável"
-          />
-        </div>
+          <div class="mb-5">            
+            <h4><img class="me-3" src="../assets/img/waterIcon.svg" alt="imagem de um icone de uma garrafa de água ">Crie o hábito de beber água</h4>
+            <p>
+              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
+              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
+            </p>
+          </div>
+          <div class="mb-5">            
+            <h4><img class="me-3" src="../assets/img/clockIcon.svg" alt="imagem de um icone de um relogio ">Tenha uma boa noite de sono</h4>
+            <p>
+              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
+              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
+            </p>
+          </div>
+          <div class="mb-5">            
+            <h4><img class="me-3" src="../assets/img/gymIcon.svg" alt="imagem de um icone de um peso de academia ">Pratique exercícios físicos</h4>
+            <p>
+              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
+              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
+            </p>
+          </div>
+          <div class="mb-5">            
+            <h4><img class="me-3" src="../assets/img/foodIcon.svg" alt="imagem de um icone de comida ">Mantenha um bom Hábito alimentar</h4>
+            <p>
+              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
+              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
+            </p>
+          </div>
+          <div class="mb-5">            
+            <h4><img class="me-3" src="../assets/img/dangerIcon.svg" alt="imagem de um icone de sinal de perigo ">Diminua comportamendos de risco</h4>
+            <p>
+              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
+              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
+            </p>
+          </div>
       </div>
     </main>
     <footer class="bg-primary">
