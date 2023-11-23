@@ -6,30 +6,29 @@
 }
 
 @media (max-width: 1200px) {
-  .remove__card{
+  .remove__card {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
-  img{
+  img {
     display: none;
   }
-
 }
 
-header{
+header {
   box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
-    width: 70vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    height: 62px;
-    padding-top: 30px;
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 62px;
+  padding-top: 30px;
 }
 
 .mobile-menu {
@@ -40,7 +39,7 @@ nav ul {
   display: none;
 }
 
-.menu__item a{
+.menu__item a {
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -51,42 +50,50 @@ nav ul {
     margin-top: -70px;
     padding: 2rem 4rem;
   }
+
   .menu__item {
     display: none;
   }
-  .mobile-menu-icon img{
+
+  .mobile-menu-icon img {
     width: 30px;
     display: block;
   }
+
   .mobile-menu-icon button {
     background-color: transparent;
     border: none;
     cursor: pointer;
   }
+
   .mobile-menu ul {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 1rem;
   }
+
   .mobile-menu ul li {
     margin-bottom: 20px;
   }
+
   .menu__item-mobile a {
     font-weight: 500;
     color: var(--color-grey-2);
     text-decoration: none;
   }
+
   .menu__item-mobile a:hover {
     color: var(--color-brand-1);
   }
-  #btn{
+
+  #btn {
     display: none;
   }
+
   .open {
     display: block;
   }
-  
 }
 
 main {
@@ -109,7 +116,7 @@ main {
 #btn-mobile {
   color: var(--color-grey-8);
   background-color: var(--color-brand-1);
-  padding: 7px  10px;
+  padding: 7px 10px;
   border-radius: 3px;
   opacity: 1;
   transition: opacity 1s ease 0s;
@@ -124,7 +131,7 @@ main {
 #btn {
   color: var(--color-grey-8);
   background-color: var(--color-brand-1);
-  padding: 7px  10px;
+  padding: 7px 10px;
   border-radius: 3px;
   opacity: 1;
   transition: opacity 1s ease 0s;
@@ -135,6 +142,7 @@ main {
   color: var(--color-grey-8);
   text-decoration: none;
 }
+
 #btn:hover {
   opacity: 0.8;
 }
@@ -176,21 +184,3 @@ main {
   align-items: center;
   vertical-align: middle;
 }
-
-
-/* dialog {
-  width: 500px;
-  height: 500px;
-  padding: 30px;
-  border: solid 2px var(--color-accent);
-}
-
-dialog::backdrop {
-  background-color: rgba(25, 28, 31, 0.8);
-}
-
-.modal {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-} */
