@@ -15,6 +15,9 @@
   img {
     display: none;
   }
+  .remove__img {
+    display: block !important;
+  }
 }
 
 header {
