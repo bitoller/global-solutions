@@ -15,7 +15,7 @@
   img {
     display: none;
   }
-  
+
   .remove__img {
     display: block !important;
   }
@@ -192,4 +192,19 @@ main {
 .care__box {
   gap: 200px;
   height: auto;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-track {
+  margin-right: 24px;
+  margin-left: 24px;
 }
