@@ -15,9 +15,11 @@
   img {
     display: none;
   }
+
   .remove__img {
     display: block !important;
   }
+
   #division__line {
     display: block !important;
   }
