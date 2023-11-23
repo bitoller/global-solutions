@@ -312,19 +312,26 @@
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
+              onclick="modalInputReset()"
             ></button>
           </div>
           <div class="modal-body">
-            <h5>Uma pergunta aleatória aqui?</h5>
-            <label for="yes">Sim</label>
-            <input type="radio" id="yes" name="mortality" value="yes" />
-            <label for="no">Não</label>
-            <input type="radio" id="no" name="mortality" value="no" />
-            <p>Seu resultado:</p>
-            <p id="result"></p>
-            <button id="btn-result" onclick="displayRadioResult()">
-              Enviar
-            </button>
+            <form id="myForm">
+              <h5>Uma pergunta aleatória aqui?</h5>
+              <label for="yes">Sim</label>
+              <input type="radio" id="yes" name="mortality" value="yes" />
+              <label for="no">Não</label>
+              <input type="radio" id="no" name="mortality" value="no" />
+              <p>Seu resultado:</p>
+              <p id="result">Preencha o questionário para ver seu resultado.</p>
+              <button
+                type="button"
+                id="btn-result"
+                onclick="displayRadioResult()"
+              >
+                Enviar
+              </button>
+            </form>
           </div>
         </div>
       </div>

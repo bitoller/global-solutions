@@ -17,7 +17,7 @@ function displayRadioResult() {
 
   if (selectedOption) {
     let textResult = "";
-    
+
     if (selectedOption.value === "yes") {
       textResult = "Você escolheu SIM. Isso é ótimo!";
     } else {
@@ -25,4 +25,10 @@ function displayRadioResult() {
     }
     document.querySelector("#result").innerText = textResult;
   }
+}
+
+function modalInputReset() {
+  document.getElementById("myForm").reset();
+  document.getElementById("result").innerText =
+    "Preencha o questionário para ver seu resultado.";
 }
