@@ -33,30 +33,41 @@
   <body>
     <header>
       <nav>
-            <ul>
-              <li class="menu__item"><a href="../../index.html">Home</a></li>
-              <li class="menu__item">
-                <a href="../pages/mortality.html">Redução de Mortalidade</a>
-              </li>
-              <li class="menu__item">
-                <a href="../pages/diseases.html">Combate a Doenças</a>
-              </li>
-              <li class="menu__item">
-                <a href="../pages/treatment.html">Prevenção e Tratamento</a>
-              </li>
-              <li class="menu__item">
-                <a href="../pages/improvement.html">Melhoria Geral</a>
-              </li>
-              <li >
-                <button id="btn"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
-                  Assista a Apresentação</a></button>
-              </li>
-            </ul>
-            <div class="mobile-menu-icon">
-              <button onclick="menuShow()"><img class="icon" src="../assets/img/menuIcon.svg" alt="icone de três barra paralelas horizontais"></button>            
-          </div>
-          </nav>
-
+        <ul>
+          <li class="menu__item"><a href="../../index.html">Home</a></li>
+          <li class="menu__item">
+            <a href="../pages/mortality.html">Redução de Mortalidade</a>
+          </li>
+          <li class="menu__item">
+            <a href="../pages/diseases.html">Combate a Doenças</a>
+          </li>
+          <li class="menu__item">
+            <a href="../pages/treatment.html">Prevenção e Tratamento</a>
+          </li>
+          <li class="menu__item">
+            <a href="../pages/improvement.html">Melhoria Geral</a>
+          </li>
+          <li>
+            <button id="btn">
+              <a
+                href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk"
+                target="_blank"
+              >
+                Assista a Apresentação</a
+              >
+            </button>
+          </li>
+        </ul>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img
+              class="icon"
+              src="../assets/img/menuIcon.svg"
+              alt="ícone de três barras paralelas horizontais"
+            />
+          </button>
+        </div>
+      </nav>
       <div class="mobile-menu">
         <ul>
           <li class="menu__item-mobile"><a href="../../index.html">Home</a></li>
@@ -73,10 +84,14 @@
             <a href="../pages/improvement.html">Melhoria Geral</a>
           </li>
           <li>
-            <li >
-              <button id="btn-mobile"><a href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk">
-                Assista a Apresentação</a></button>
-            </li>
+            <button id="btn-mobile">
+              <a
+                href="https://www.youtube.com/embed/7Ggx_UsW17o?si=VHPV1uoeA3CWFYgk"
+                target="_blank"
+              >
+                Assista a Apresentação</a
+              >
+            </button>
           </li>
         </ul>
       </div>
@@ -98,7 +113,12 @@
               melhor qualidade de vida e mantenha a saúde em dia!
             </p>
             <div class="d-flex justify-content-center mt-5">
-              <button class="btn btn-primary btn-lg">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+              >
                 Responder Questionário
               </button>
             </div>
@@ -115,41 +135,112 @@
           Alguns hábitos que podem levar você a ter uma vida mais saudável
         </h2>
         <div class="mb-5">
-          <div class="mb-5">            
-            <h4><img class="me-3" src="../assets/img/waterIcon.svg" alt="imagem de um icone de uma garrafa de água ">Crie o hábito de beber água</h4>
-            <p>
-              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
-              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
-            </p>
+          <div class="mb-5 d-flex align-items-center">
+            <div>
+              <img
+                class="me-3"
+                src="../assets/img/waterIcon.svg"
+                alt="imagem de um ícone de uma garrafa de água"
+              />
+            </div>
+            <div>
+              <h4>Crie o hábito de beber água</h4>
+              <p>
+                Vel voluptate molestias et alias voluptatum et aspernatur
+                voluptate quo quis sunt eos illum saepe. Et beatae natus aut
+                nulla nihil ut reiciendis ducimus in magnam rerum ut atque
+                dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero
+                ea explicabo fugiat est veritatis enim. Id vitae temporibus aut
+                quia temporibus ut suscipit dolor sed voluptatem voluptas. Et
+                nemo alias ea dicta beatae ea amet minima.
+              </p>
+            </div>
           </div>
-          <div class="mb-5">            
-            <h4><img class="me-3" src="../assets/img/clockIcon.svg" alt="imagem de um icone de um relogio ">Tenha uma boa noite de sono</h4>
-            <p>
-              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
-              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
-            </p>
+          <div class="mb-5 d-flex align-items-center">
+            <div>
+              <img
+                class="me-3"
+                src="../assets/img/clockIcon.svg"
+                alt="imagem de um ícone de um relógio"
+              />
+            </div>
+            <div>
+              <h4>Tenha uma boa noite de sono</h4>
+              <p>
+                Vel voluptate molestias et alias voluptatum et aspernatur
+                voluptate quo quis sunt eos illum saepe. Et beatae natus aut
+                nulla nihil ut reiciendis ducimus in magnam rerum ut atque
+                dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero
+                ea explicabo fugiat est veritatis enim. Id vitae temporibus aut
+                quia temporibus ut suscipit dolor sed voluptatem voluptas. Et
+                nemo alias ea dicta beatae ea amet minima.
+              </p>
+            </div>
           </div>
-          <div class="mb-5">            
-            <h4><img class="me-3" src="../assets/img/gymIcon.svg" alt="imagem de um icone de um peso de academia ">Pratique exercícios físicos</h4>
-            <p>
-              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
-              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
-            </p>
+          <div class="mb-5 d-flex align-items-center">
+            <div>
+              <img
+                class="me-3"
+                src="../assets/img/gymIcon.svg"
+                alt="imagem de um ícone de um peso de academia"
+              />
+            </div>
+            <div>
+              <h4>Pratique exercícios físicos</h4>
+              <p>
+                Vel voluptate molestias et alias voluptatum et aspernatur
+                voluptate quo quis sunt eos illum saepe. Et beatae natus aut
+                nulla nihil ut reiciendis ducimus in magnam rerum ut atque
+                dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero
+                ea explicabo fugiat est veritatis enim. Id vitae temporibus aut
+                quia temporibus ut suscipit dolor sed voluptatem voluptas. Et
+                nemo alias ea dicta beatae ea amet minima.
+              </p>
+            </div>
           </div>
-          <div class="mb-5">            
-            <h4><img class="me-3" src="../assets/img/foodIcon.svg" alt="imagem de um icone de comida ">Mantenha um bom Hábito alimentar</h4>
-            <p>
-              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
-              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
-            </p>
+          <div class="mb-5 d-flex align-items-center">
+            <div>
+              <img
+                class="me-3"
+                src="../assets/img/foodIcon.svg"
+                alt="imagem de um ícone de proibido comer"
+              />
+            </div>
+            <div>
+              <h4>Mantenha um bom hábito alimentar</h4>
+              <p>
+                Vel voluptate molestias et alias voluptatum et aspernatur
+                voluptate quo quis sunt eos illum saepe. Et beatae natus aut
+                nulla nihil ut reiciendis ducimus in magnam rerum ut atque
+                dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero
+                ea explicabo fugiat est veritatis enim. Id vitae temporibus aut
+                quia temporibus ut suscipit dolor sed voluptatem voluptas. Et
+                nemo alias ea dicta beatae ea amet minima.
+              </p>
+            </div>
           </div>
-          <div class="mb-5">            
-            <h4><img class="me-3" src="../assets/img/dangerIcon.svg" alt="imagem de um icone de sinal de perigo ">Diminua comportamendos de risco</h4>
-            <p>
-              Vel voluptate molestias et alias voluptatum et aspernatur voluptate quo quis sunt eos illum saepe. Et beatae natus aut nulla nihil ut reiciendis ducimus in magnam rerum ut atque dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero ea explicabo fugiat est veritatis enim.
-              Id vitae temporibus aut quia temporibus ut suscipit dolor sed voluptatem voluptas. Et nemo alias ea dicta beatae ea amet minima.
-            </p>
+          <div class="mb-5 d-flex align-items-center">
+            <div>
+              <img
+                class="me-3"
+                src="../assets/img/dangerIcon.svg"
+                alt="imagem de um ícone de sinal de perigo"
+              />
+            </div>
+            <div>
+              <h4>Diminua comportamentos de risco</h4>
+              <p>
+                Vel voluptate molestias et alias voluptatum et aspernatur
+                voluptate quo quis sunt eos illum saepe. Et beatae natus aut
+                nulla nihil ut reiciendis ducimus in magnam rerum ut atque
+                dolore 33 tenetur natus. Sed quasi tempora qui laudantium libero
+                ea explicabo fugiat est veritatis enim. Id vitae temporibus aut
+                quia temporibus ut suscipit dolor sed voluptatem voluptas. Et
+                nemo alias ea dicta beatae ea amet minima.
+              </p>
+            </div>
           </div>
+        </div>
       </div>
     </main>
     <footer class="bg-primary">
@@ -211,5 +302,32 @@
         </div>
       </div>
     </footer>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Faça parte da nossa enquete:</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h5>Uma pergunta aleatória aqui?</h5>
+            <label for="yes">Sim</label>
+            <input type="radio" id="yes" name="mortality" value="yes" />
+            <label for="no">Não</label>
+            <input type="radio" id="no" name="mortality" value="no" />
+            <p>Seu resultado:</p>
+            <p id="result"></p>
+            <button id="btn-result" onclick="displayRadioResult()">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
