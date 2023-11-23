@@ -15,6 +15,9 @@
   img {
     display: none;
   }
+  .remove__img {
+    display: block !important;
+  }
 }
 
 header {
@@ -183,4 +186,9 @@ main {
   display: inline;
   align-items: center;
   vertical-align: middle;
+}
+
+.care__box {
+  gap: 200px;
+  height: auto;
 }
