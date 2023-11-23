@@ -26,3 +26,9 @@ function displayRadioResult() {
     document.querySelector("#result").innerText = textResult;
   }
 }
+
+function modalInputReset() {
+  document.getElementById("myForm").reset();
+  document.getElementById("result").innerText =
+    "Preencha o questionário para ver seu resultado.";
+}
