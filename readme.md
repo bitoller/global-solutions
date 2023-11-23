@@ -44,7 +44,7 @@ O projeto está em fase de desenvolvimento.
 
 ## 📁 Acesso ao Projeto
 
-- [Veja nosso site funcionando](#).
+- [Veja nosso site funcionando](https://tech-care-for-all.vercel.app/).
 - [Veja o Figma do nosso projeto](https://www.figma.com/file/hrz95ym3YwdJZjBpR2AmSM/Techcare4all?type=design&node-id=0%3A1&mode=design&t=RCh5SJz8vnFG6pKk-1).
 
 Neste repositório, você tem acesso a todos os arquivos e códigos da aplicação.<br/>
