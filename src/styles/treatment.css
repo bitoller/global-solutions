@@ -189,13 +189,6 @@ main {
   vertical-align: middle;
 }
 
-#btn-result {
-  color: var(--color-grey-8);
-  border-radius: 4px;
-  padding: 10px;
-  background-color: var(--color-brand-1);
-}
-
 ::-webkit-scrollbar {
   background: transparent;
   width: 8px;
