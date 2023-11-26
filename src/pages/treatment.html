@@ -148,34 +148,6 @@
             />
           </div>
         </div>
-        <hr class="border-3" />
-        <div class="row d-flex gap-2 mb-5">
-          <h3 class="text-center mb-5">
-            Responda algumas perguntas e veja onde pode melhorar seus hábitos
-          </h3>
-          <div class="col">
-            <h4 class="mb-4">Saiba como podemos melhorar nossos hábitos!</h4>
-            <p>
-              Alguns pontos passam despercebidos no nosso cotidiano levando a
-              tomarmos más escolhas.
-            </p>
-            <p>Serão apenas 5 perguntinhas rápidas sobre seus hábitos.</p>
-            <p>
-              Com as respostas, daremos algumas dicas para que você tenha uma
-              melhor qualidade de vida e mantenha a saúde em dia!
-            </p>
-          </div>
-          <div class="col m-auto ms-5">
-            <button
-              type="button"
-              class="btn btn-primary btn-lg ms-5"
-              data-bs-toggle="modal"
-              data-bs-target="#myModal"
-            >
-              Ir para o questionário
-            </button>
-          </div>
-        </div>
       </div>
     </main>
     <footer class="bg-primary">
@@ -185,9 +157,10 @@
             <i>Informações</i>
           </h2>
           <p class="mt-4">
-            Global Solutions: Transformando o futuro da saúde! voluptatibus et
-            perferendis harum. Eq cumque veniam utd minusdignissimos vel ullam
-            cupiditate
+            Global Solutions - Inovação e tecnologia moldando o futuro da saúde:
+            Prevenção, Automação e Precisão. Em parceria com a Hapvida NotreDame
+            Intermédica, a maior operadora de saúde do Brasil, com mais 16,1
+            milhões de beneficiários de saúde e odontologia.
           </p>
         </div>
         <div class="text-light box__2">
@@ -237,39 +210,5 @@
         </div>
       </div>
     </footer>
-    <div id="myModal" class="modal fade" role="dialog">
-      <div class="modal-dialog modal-dialog-scrollable">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title">Faça parte da nossa enquete:</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-              onclick="modalInputReset()"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form id="myForm">
-              <h5>Uma pergunta aleatória aqui?</h5>
-              <label for="yes">Sim</label>
-              <input type="radio" id="yes" name="mortality" value="yes" />
-              <label for="no">Não</label>
-              <input type="radio" id="no" name="mortality" value="no" />
-              <p>Seu resultado:</p>
-              <p id="result">Preencha o questionário para ver seu resultado.</p>
-              <button
-                type="button"
-                id="btn-result"
-                onclick="displayRadioResult()"
-              >
-                Enviar
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
