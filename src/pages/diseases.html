@@ -103,7 +103,7 @@
       <div class="container">
         <div class="row remove__img">
           <div class="col m-auto">
-            <h3 class="mb-5">
+            <h3 class="my-5">
               A Importância de se
               <i class="border-2 border-bottom border-primary">proteger</i>
             </h3>
@@ -139,7 +139,7 @@
                     alt="imagem de um ícone redondo com uma cruz vermelha ao centro"
                   />
                 </div>
-                <div>
+                <div id="doct">
                   <h4 class="mb-3">Procure um médico</h4>
                   <p>
                     Procurar um médico regularmente é uma prática fundamental
@@ -228,9 +228,9 @@
                 </div>
               </div>
             </div>
-            <hr class="border-3" />
-            <div class="row d-flex gap-2 mb-5">
-              <h3 class="text-center mb-5">
+            <hr class="border-3 my-3" />
+            <div class="row d-flex gap-2 mb-5 ms-1">
+              <h3 class="text-center mb-5 mt-3">
                 Responda algumas perguntas e veja onde pode melhorar seus
                 hábitos
               </h3>
@@ -337,77 +337,97 @@
             ></button>
           </div>
           <div class="modal-body">
-            <form id="myForm">
+            <form id="myForm" class="d-flex flex-column">
               <h5>Você está com todas as vacinas em dia?</h5>
-              <input
-                type="radio"
-                id="vaccines-good"
-                name="vaccines"
-                value="good"
-              />
-              <label for="vaccines-good"
-                >Estou com todas as vacinas obrigatórias em dia, além das
-                vacinas opcionais como a de gripe</label
-              >
-              <input
-                type="radio"
-                id="vaccines-okay"
-                name="vaccines"
-                value="okay"
-              />
-              <label for="vaccines-okay"
-                >Estou com todas as vacinas obrigatórias em dia</label
-              >
-              <input
-                type="radio"
-                id="vaccines-bad"
-                name="vaccines"
-                value="bad"
-              />
-              <label for="vaccines-bad"
-                >Não estou com as vacinas obrigatórias em dia</label
-              >
+              <div class="d-flex p-1 gap-2">
+                <input
+                  type="radio"
+                  id="vaccines-good"
+                  name="vaccines"
+                  value="good"
+                />
+                <label for="vaccines-good"
+                  >Estou com todas as vacinas obrigatórias em dia, além das
+                  vacinas opcionais como a de gripe</label
+                >
+              </div>
+              <div class="d-flex p-1 gap-2">
+                <input
+                  type="radio"
+                  id="vaccines-okay"
+                  name="vaccines"
+                  value="okay"
+                />
+                <label for="vaccines-okay"
+                  >Estou com todas as vacinas obrigatórias em dia</label
+                >
+              </div>
+              <div class="d-flex p-1 gap-2 mb-2">
+                <input
+                  type="radio"
+                  id="vaccines-bad"
+                  name="vaccines"
+                  value="bad"
+                />
+                <label for="vaccines-bad"
+                  >Não estou com as vacinas obrigatórias em dia</label
+                >
+              </div>
               <h5>Você lava suas mãos frequentemente?</h5>
-              <input
-                type="radio"
-                id="hand-wash-good"
-                name="hand-wash"
-                value="good"
-              />
-              <label for="hand-wash-good"
-                >Lavo minhas mãos ao usar o banheiro, ao chegar em casa e antes
-                de lidar com alimentos</label
-              >
-              <input
-                type="radio"
-                id="hand-wash-okay"
-                name="hand-wash"
-                value="okay"
-              />
-              <label for="hand-wash-okay"
-                >Só lavo minhas mãos ao ir ao banheiro</label
-              >
-              <input
-                type="radio"
-                id="hand-wash-bad"
-                name="hand-wash"
-                value="bad"
-              />
-              <label for="hand-wash-bad"
-                >Só lavo minhas mãos quando tomo banho</label
-              >
+              <div class="d-flex p-1 gap-2">
+                <input
+                  type="radio"
+                  id="hand-wash-good"
+                  name="hand-wash"
+                  value="good"
+                />
+                <label for="hand-wash-good"
+                  >Lavo minhas mãos ao usar o banheiro, ao chegar em casa e
+                  antes de lidar com alimentos</label
+                >
+              </div>
+              <div class="d-flex p-1 gap-2">
+                <input
+                  type="radio"
+                  id="hand-wash-okay"
+                  name="hand-wash"
+                  value="okay"
+                />
+                <label for="hand-wash-okay"
+                  >Só lavo minhas mãos ao ir ao banheiro</label
+                >
+              </div>
+              <div class="d-flex p-1 gap-2 mb-2">
+                <input
+                  type="radio"
+                  id="hand-wash-bad"
+                  name="hand-wash"
+                  value="bad"
+                />
+                <label for="hand-wash-bad"
+                  >Só lavo minhas mãos quando tomo banho</label
+                >
+              </div>
               <h5>Com qual frequência você usa máscaras?</h5>
-              <input type="radio" id="mask-good" name="mask" value="good" />
-              <label for="mask-good"
-                >Uso máscara quando estou doente e ao sair de casa, só por
-                precaução</label
-              >
-              <input type="radio" id="mask-okay" name="mask" value="okay" />
-              <label for="mask-okay"
-                >Uso máscara quando estou com sintomas de gripe</label
-              >
-              <input type="radio" id="mask-bad" name="mask" value="bad" />
-              <label for="mask-bad">Não uso máscaras, elas não funcionam</label>
+              <div class="d-flex p-1 gap-2">
+                <input type="radio" id="mask-good" name="mask" value="good" />
+                <label for="mask-good"
+                  >Uso máscara quando estou doente e ao sair de casa, só por
+                  precaução</label
+                >
+              </div>
+              <div class="d-flex p-1 gap-2">
+                <input type="radio" id="mask-okay" name="mask" value="okay" />
+                <label for="mask-okay"
+                  >Uso máscara quando estou com sintomas de gripe</label
+                >
+              </div>
+              <div class="d-flex p-1 gap-2 mb-2">
+                <input type="radio" id="mask-bad" name="mask" value="bad" />
+                <label for="mask-bad"
+                  >Não uso máscaras, elas não funcionam</label
+                >
+              </div>
               <p><strong>Seu resultado:</strong></p>
               <p id="result">Preencha o questionário para ver seu resultado.</p>
               <button
