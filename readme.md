@@ -55,7 +55,7 @@ Para abrir o projeto, simplesmente clone o repositório, clique com o botão dir
 
 ## 👩‍💻 Desenvolvedores do Projeto
 
-- <a href="https://www.linkedin.com/in/bianca-toller/" target="_blank">Bianca Toller</a>
-- <a href="#" target="_blank">Bruno Marcelino Guimarães</a>
+- <a href="https://www.linkedin.com/in/bianca-toller" target="_blank">Bianca Toller</a>
+- <a href="https://www.linkedin.com/in/bruno-marc" target="_blank">Bruno Marcelino Guimarães</a>
 - <a href="https://www.linkedin.com/in/iago-bortolo" target="_blank">Iago Henrique Bortolo</a>
 - <a href="https://www.linkedin.com/in/wesley-bastos" target="_blank">Wesley da Avilla Bastos</a>
