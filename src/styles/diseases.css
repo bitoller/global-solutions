@@ -21,9 +21,9 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 769px) {
   .care__box {
-    width: 300px;
+    width: 330px;
     gap: 5px !important;
   }
 }
