@@ -44,10 +44,11 @@ O projeto está em fase de correção de pequenos detalhes de UX/UI.
 
 ## 📁 Acesso ao Projeto
 
-- [Veja nosso site funcionando](https://tech-care-for-all.vercel.app/).
-- [Veja o Figma do nosso projeto](https://www.figma.com/file/hrz95ym3YwdJZjBpR2AmSM/Techcare4all?type=design&node-id=0%3A1&mode=design&t=RCh5SJz8vnFG6pKk-1).
-- [Veja nosso vídeo de apresentação no YouTube](https://youtu.be/rytwTbChY7Q?si=mMqrMTurq3ux8jjU).
-- [Veja nossos slides PPT da apresentação](https://1drv.ms/p/c/4dc72143a5907ab4/EaN8e1veGJRPuOmF-0V163gBvkJkbDynqJ-Ycc2efswj0w?e=bngHid).
+- [Veja o nosso site funcionando](https://tech-care-for-all.vercel.app/)
+- [Veja o repositório do nosso projeto no GitHub](https://github.com/bitoller/global-solutions)
+- [Veja o Figma do nosso projeto](https://www.figma.com/file/hrz95ym3YwdJZjBpR2AmSM/Techcare4all?type=design&node-id=0%3A1&mode=design&t=RCh5SJz8vnFG6pKk-1)
+- [Veja nosso vídeo de apresentação no YouTube](https://youtu.be/rytwTbChY7Q?si=mMqrMTurq3ux8jjU)
+- [Veja nossos slides PPT da apresentação](https://1drv.ms/p/c/4dc72143a5907ab4/EaN8e1veGJRPuOmF-0V163gBvkJkbDynqJ-Ycc2efswj0w?e=bngHid)
 
 Neste repositório, você tem acesso a todos os arquivos e códigos da aplicação.<br/>
 
