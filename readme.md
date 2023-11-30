@@ -18,7 +18,7 @@ Focamos nesta seção na preocupação crucial da redução da mortalidade infan
 
 ### Combate a Doenças Transmissíveis
 
-Nesta página, concentramos nossos esforços no combate a doenças transmissíveis. Apresentamos abordagens proativas, incluindo campanhas de conscientização, programas de vacinação e a implementação de tecnologias inovadoras para rastreamento e prevenção de surtos.
+Nesta página, concentramos nossos esforços no combate a doenças transmissíveis. Apresentamos abordagens proativas, incluindo campanhas de conscientização, programas de vacinação e a implementação de uma enquete de saúde.
 
 ### Prevenção e Tratamento de Doenças Não Transmissíveis
 
@@ -26,7 +26,7 @@ Abordamos as doenças não transmissíveis nesta seção, destacando estratégia
 
 ### Melhoria Geral da Saúde
 
-Na última página, propomos uma visão abrangente para a melhoria geral da saúde. Unimos as iniciativas discutidas anteriormente, enfatizando a importância da colaboração entre comunidades, instituições de saúde e o setor público para alcançar uma transformação positiva na saúde da população.
+Na última página, propomos uma visão abrangente para a melhoria geral da saúde. Unimos as iniciativas discutidas anteriormente, enfatizando a importância de se ter alguns hábitos para alcançar uma transformação positiva na saúde da população. Também implementamos uma enquete de saúde nessa página.
 
 ## ✔️ Tecnologias e Ferramentas Utilizadas
 
@@ -40,18 +40,19 @@ Na última página, propomos uma visão abrangente para a melhoria geral da saú
 
 ## ⌛ Status do Projeto
 
-O projeto está em fase de desenvolvimento.
+O projeto está em fase de correção de pequenos detalhes de UX/UI.
 
 ## 📁 Acesso ao Projeto
 
 - [Veja nosso site funcionando](https://tech-care-for-all.vercel.app/).
 - [Veja o Figma do nosso projeto](https://www.figma.com/file/hrz95ym3YwdJZjBpR2AmSM/Techcare4all?type=design&node-id=0%3A1&mode=design&t=RCh5SJz8vnFG6pKk-1).
+- [Veja nosso vídeo de apresentação no YouTube](https://www.youtube.com/watch?v=exYd1lWKq5U).
 
 Neste repositório, você tem acesso a todos os arquivos e códigos da aplicação.<br/>
 
 ## 🛠️ Abrir e Rodar o Projeto
 
-Para abrir o projeto, simplesmente clone o repositório, clique com o botão direito no código do arquivo `index.html` e selecione a opção `abrir com o live server`.
+Para abrir o projeto, simplesmente clone o repositório, clique com o botão direito no arquivo `index.html` e selecione a opção `abrir com o live server`.
 
 ## 👩‍💻 Desenvolvedores do Projeto
 
