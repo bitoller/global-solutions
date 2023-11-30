@@ -151,6 +151,10 @@ main {
   opacity: 0.8;
 }
 
+.box__treatment-color {
+  background-color: #e5effa;
+}
+
 .background {
   background-image: url("../assets/img/topBg.png");
   background-repeat: no-repeat;
