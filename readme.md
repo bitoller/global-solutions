@@ -40,7 +40,7 @@ Na última página, propomos uma visão abrangente para a melhoria geral da saú
 
 ## ⌛ Status do Projeto
 
-O projeto está em fase de correção de pequenos detalhes de UX/UI.
+O projeto foi concluído.
 
 ## 📁 Acesso ao Projeto
 
